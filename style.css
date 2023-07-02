@@ -1,0 +1,106 @@
+.profile-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  html
+  {
+    background-color: rgba(3, 148, 240,0.5);
+    font-family: 'Ysabeau Office', sans-serif;
+  }
+
+
+#section1 {
+    background-color:  rgba(3, 148, 240,0.5);
+    color:white;
+  }
+  .prenom {
+    font-family: 'Bacasime Antique', serif;    
+
+  }
+
+.nav-link {   
+    color:white;
+  }
+
+#projects
+{
+    background-color: white;
+}
+
+.card {
+    background-color:rgba(3, 148, 240,0.5); 
+
+}
+
+.view {
+    color:white;
+    text-decoration: none;
+}
+
+#about{
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    color:rgba(3, 148, 240);
+    
+}
+
+.container_about 
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+h1 {
+    font-family: 'Ysabeau Office', sans-serif;
+    text-align: center;
+    
+    text-decoration: underline;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+.main1{
+
+    background-color: gray;
+    flex-grow: 1;
+    flex:1;
+
+}
+
+.main2{
+    background-color: wheat;
+    flex-grow: 1;
+    flex:1;
+
+
+}
+
+.main3{
+    background-color: brown;
+    flex-grow: 1;
+    flex:1;
+
+}
+
+
+.second {
+    flex-direction: row;
+}
+
+
+.third {
+    flex-direction: row;
+}
+
+
