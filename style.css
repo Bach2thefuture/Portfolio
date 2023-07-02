@@ -6,8 +6,10 @@
 
   html
   {
-    background-color: rgba(3, 148, 240,0.5);
+    
     font-family: 'Ysabeau Office', sans-serif;
+    background-color:  rgba(3, 148, 240,0.5);
+    
   }
 
 
@@ -40,67 +42,154 @@
 }
 
 #about{
-    height: 50vh;
+
     justify-content: center;
     align-items: center;
+   
+    
+}
+
+
+
+#about>h1 {
+    font-family: 'Ysabeau Office', sans-serif;
+    text-align: center;
     color:rgba(3, 148, 240);
     
+
 }
 
 .container_about 
 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     
-}
-
-h1 {
-    font-family: 'Ysabeau Office', sans-serif;
-    text-align: center;
-    
-    text-decoration: underline;
-
 }
 
 .main {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
    
     
 }
 
 .main1{
 
-    background-color: gray;
-    flex-grow: 1;
-    flex:1;
+   
+    flex-basis: 30%;
+    text-align: center;
 
 }
 
 .main2{
-    background-color: wheat;
-    flex-grow: 1;
-    flex:1;
+    
+    flex-basis: 30%; 
+    text-align: center;
 
 
 }
 
 .main3{
-    background-color: brown;
-    flex-grow: 1;
-    flex:1;
+    
+    flex-basis: 30%;
+    text-align: center;
 
 }
-
 
 .second {
+    display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+   
+    
 }
 
+.second1 {
+    flex-basis: 25%;
+    text-align: center;
+
+
+}
+
+.second2 {
+    flex-basis: 25%;
+    text-align: center;
+    
+}
+.second3 {
+    flex-basis: 25%;
+    text-align: center;
+}
+.second4 {
+    flex-basis: 25%;
+    text-align: center;
+    
+}
+.second5 {
+    flex-basis: 25%;
+    text-align: center;
+}
 
 .third {
+    display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 
+.third1{
+    flex-basis: 30%;
+    text-align: center;
 
+}
+
+.third2 {
+    flex-basis: 30%;
+    text-align: center;
+
+}
+
+.third3{
+    flex-basis: 30%;
+    text-align: center;
+
+}
+
+footer
+{
+    background-color:  rgba(3, 148, 240,0.5);
+    
+
+}
+
+.nom{
+    color: white
+
+}
+
+footer p{
+    color:white
+    
+    
+
+}
+
+footer img
+{
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.footer {
+    border: 0;
+}
